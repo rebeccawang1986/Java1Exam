@@ -32,9 +32,9 @@ public class PokemonTest {
         System.out.println("");
         
         Onix onix = new Onix();
-        System.out.println("Charmander HP: " + charm.getHP());
-        charm.setHP(600);
-        System.out.println("Charmander HP: " + charm.getHP());
+        System.out.println("Onix HP: " + onix.getHP());
+        onix.setHP(600);
+        System.out.println("Onix HP: " + onix.getHP());
         System.out.println("Onix defense: " + onix.getDefense());
         onix.tackle();
         onix.rockSlide();
